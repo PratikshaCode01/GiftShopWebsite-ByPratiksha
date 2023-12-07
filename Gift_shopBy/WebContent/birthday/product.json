@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Birthday Gift for Male Friend Wooden Photo Frame (5'x4')",
+        "price": 520,
+        "image": "images/s2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Personalised Bobblehead Miniature for Businesswoman ",
+        "price": 920,
+        "image": "images/s3.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Birthday Gift for Mother on Printable Glass (19.5x19.5cm)",
+        "price": 1250,
+        "image": "images/s4.jpg"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Customised Spotify Code Music Photo Magic Mug Gift",
+        "price": 420,
+        "image": "images/s5.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Personalised Bobblehead Miniature for Businesswoman",
+        "price": 1920,
+        "image": "images/s6.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Personalised Bobblehead Miniature for Businesswoman",
+        "price": 1880,
+        "image": "images/s3.jpg"
+    }
+]

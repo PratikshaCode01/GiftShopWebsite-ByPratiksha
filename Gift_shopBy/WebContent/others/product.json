@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Name Engraved Customized Temperature Control Bottle",
+        "price": 520,
+        "image": "images/s22.jpg"
+    },
+    {
+        "id": 2,
+        "name": "customized pen holder",
+        "price": 920,
+        "image": "images/s33.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Salty N Crunchy Dry Fruits Tray",
+        "price": 1250,
+        "image": "images/s44.jpeg"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Customised Spotify Code Music Photo Magic Mug Gift",
+        "price": 420,
+        "image": "images/s5.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Personalized Square Magic Cushion (Blue/White)",
+        "price": 1920,
+        "image": "images/s55.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Name Engraved Customized Temperature Control Bottle",
+        "price": 520,
+        "image": "images/s22.jpg"
+    }
+]

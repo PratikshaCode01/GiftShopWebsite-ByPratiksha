@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  min-height: 100vh;
+  background: url(signlog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+nav{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid rgb(63, 20, 61);
+	box-shadow: 2px 0px 5px rgb(230, 75, 162);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top:0;
+	color: white;
+	z-index: 1;
+	background:rgb(63, 20, 61);
+}
+.logo{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-style: italic;
+	
+}
+
+.menu a{
+	text-decoration: none;
+	font-size: 20px;
+	color:white;
+	padding: 10px 20px;
+	margin:5px;
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-style: italic;
+ 
+}
+
+.menu #Last-child{
+	background: white;
+	color:rgb(63, 20, 61);
+	border-radius: 10px;
+	justify-content: right;
+	margin-right: 20px;
+	
+}
+.menu a:last-child{
+	background: white;
+	color:rgb(63, 20, 61);
+	border-radius: 10px;
+}
+form {
+  margin-top: 5%;
+  padding: 25px;
+  background: transparent;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: 0 15px 20px rgb(241, 234, 241);
+  opacity: 5;
+  margin-left: 40%;
+}
+
+form h2 {
+  font-size: 27px;
+  text-align: center;
+  margin: 0px 0 30px;
+  color: #fdfbfd;
+}
+
+form .form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+form label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 7px;
+  color: rgb(248, 245, 248);
+}
+
+form input {
+  height: 45px;
+  padding: 10px;
+  color: rgb(247, 246, 248);
+  width: 100%;
+  font-size: 15px;
+  outline: none;
+  background: transparent;
+  border-radius: 3px;
+  border: 1px solid #f3eff3;
+}
+
+
+form #gender{
+  color: #e7d9e7;
+}
+form select{
+  height: 45px;
+  padding: 10px;
+  color: rgb(38, 13, 63);
+  width: 100%;
+  font-size: 15px;
+  outline: none;
+  background: transparent;
+  border-radius: 3px;
+  border: 1px solid #f3eff3;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #e7d9e7;
+}
+
+form input.error,
+form select.error {
+  border-color: #b52940;
+  background:transparent;
+}
+
+form input::placeholder{
+  color: rgb(248, 247, 248);
+  size: 15px;
+  font-weight: bold;
+}
+
+form small {
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+  color: #f91919;
+}
+
+form .password i {
+  position: absolute;
+  right: 0px;
+  height: 45px;
+  top: 28px;
+  font-size: 13px;
+  line-height: 45px;
+  width: 45px;
+  cursor: pointer;
+   color: rgb(254, 254, 254);
+  text-align: center;
+}
+
+.submit-btn {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.submit-btn input {
+  color: rgb(248, 245, 249);
+  border: 1px solid rgb(245, 241, 245) ;
+  height: auto;
+  font-size: 20px;
+  padding: 13px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+  text-align: center;
+  background: transparent;
+  transition: 0.2s ease;
+}
+
+.submit-btn input:hover {
+  background: transparent;
+}
+
+/* ---------------------- */
+
+ .shopping{
+  position: relative;
+  text-align: right;
+}
+ .shopping img{
+  width: 30px;
+}
+ .shopping span{
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  top: -5px;
+  left: 80%;
+  padding: 3px 10px;
+}

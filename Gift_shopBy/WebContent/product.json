@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "LED Bottle Lamp Personalised for Husband Anniversary",
+        "price": 520,
+        "image": "images/s75.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Personalised Photo Frame Collage for Wife Anniversary (17'x12')",
+        "price": 920,
+        "image": "images/s77.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Nike Ferr TR",
+        "price": 1250,
+        "image": "images/s9"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Customised Spotify Code Music Photo Magic Mug Gift",
+        "price": 420,
+        "image": "images/s8"
+    },
+    {
+        "id": 5,
+        "name": "Personalised Bobblehead Miniature for Businesswoman",
+        "price": 1920,
+        "image": "images/s6.jpg"
+    },
+    {
+        "id": 6,
+        "name": "LED Bottle Lamp Personalised for Husband Anniversary",
+        "price": 520,
+        "image": "images/s75.jpg"
+    }
+]

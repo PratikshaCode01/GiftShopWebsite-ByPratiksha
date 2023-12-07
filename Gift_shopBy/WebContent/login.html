@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="signuup.css">
+    <!-- Fontawesome CDN Link For Icons -->
+    <link rel="shortcut icon" href="fl.jpg" type="image/x-icon" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    
+    <nav>
+      <div class="logo">Gift-Shop</div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+       
+         
+        <!-- <a id="Last-child" href="">login</a> -->
+        <a id="Last-child" href="signup.html">Sign-Up</a>
+
+
+      </div>
+    </nav>
+    
+    <input type="hidden" id="status" value="<%= request.getAttribute("status")%>">
+    
+    <form action="login" method="post">
+      <h2>Log in</h2>
+      <div class="form-group fullname">
+        <label for="fullname">Email </label>
+        <input type="text" name="us" id="us" placeholder="Enter your Mail">
+      </div>
+     
+      <div class="form-group password">
+        <label for="password">Password</label>
+        <input required="required" type="password" name="pass" id="password" placeholder="Enter your password">
+        <i id="ps" class="fa-solid fa-eye"></i>
+      </div>
+     
+      </div>
+      <div class="form-group submit-btn">
+        <input required="required" type="submit" value="Submit">
+      </div>
+      
+      <div class="form-group fullname">
+        <label for="fullname"> You haven't account <a href="signup.html">Register Here</a> </label>
+
+       
+      </div>
+     
+    </form>
+
+    <script src="signup.js"></script>
+       
+  </body>
+</html>

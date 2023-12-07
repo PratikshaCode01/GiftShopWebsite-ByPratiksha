@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="signuup.css">
+    <!-- Fontawesome CDN Link For Icons -->
+    <link rel="shortcut icon" href="fl.jpg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    
+    <nav>
+      <div class="logo">Gift-Shop</div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+       
+         
+        <a id="Last-child" href="login.html">login</a>
+        <!-- <a id="Last-child" href="./signup.html">Sign-Up</a> -->
+        
+
+      </div>
+    </nav>
+    <form action="signup" method="post">
+      <h2>Sign Up</h2>
+      <div class="form-group fullname">
+        <label for="fullname"> Username</label>
+        <input required="required" type="text" name="us" id="us" placeholder="Enter your full name">
+      </div>
+      <div class="form-group email">
+        <label for="email">Email Address</label>
+        <input required="required" type="text"  name="em" id="em" placeholder="Enter your email address">
+      </div>
+      <div class="form-group password">
+        <label for="password">Password</label>
+        <input required="required" type="password" name="pw" id="pw" placeholder="Enter your password">
+        <i id="ps" class="fa-solid fa-eye"></i>
+      </div>
+       <div class="form-group password">
+        <label for="password">Confirm Password</label>
+        <input required="required" type="password" name="re_pw" id="re_pw" placeholder="Enter your Confirm password">
+        <i id="ps" class="fa-solid fa-eye"></i>
+      </div>
+      <div class="form-group date">
+        <label for="text">Phone No</label>
+        <input required="required" type="number" id="phno" name="phno" placeholder="Enter Your Phone Number">
+      </div>
+     <!--   <div class="form-group gender">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="" selected disabled>Select your gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>-->
+      
+      <div class="form-group submit-btn">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+
+    <script src="signup.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	 <link rel="stylesheet" href="alert/dist/sweetalert.css">
+
+<script type="text/javascript">
+
+var status = document.getElementById("status").value;
+
+if (status == "success") { 
+	swal("Congrats!", "Account Created Successfully  ", "success");
+	
+}
+if (status == "invalidName") { 
+	swal("Sorry!", "Please enter name  ", "error");
+	
+}
+if (status == "invalidEmail") { 
+	swal("Sorry!", "Please enter Email  ", "error");
+}
+if (status == "invalidUpwd") { 
+	swal("Sorry!", "Please enter Password  ", "error");
+}
+if (status == "invalidConfirmUpwd") { 
+	swal("Sorry!", "Password do not match", "error");
+}
+if (status == "invalidPhno") { 
+	swal("Sorry!", "Please enter Phno  ", "error");
+}
+if (status == "InvalidPhnoLength") { 
+	swal("Sorry!", "Phone number should be 10 digit  ", "error");
+}
+ </script>
+  </body>
+</html>
